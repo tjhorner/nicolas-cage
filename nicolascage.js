@@ -5,7 +5,7 @@ function checkCage(){
 		}
 	});
 	$('*').each(function(){
-		$(this).css('background-image', 'http://www.dreadcentral.com/img/news/jun11/niccage.jpg');
+		$(this).css('background-image', 'url(http://www.dreadcentral.com/img/news/jun11/niccage.jpg)');
 	});
 }
 $(document).ready(function(){
